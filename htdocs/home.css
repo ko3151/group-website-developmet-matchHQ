@@ -1,0 +1,91 @@
+.content{
+	height:1250px;
+	width:100%;
+	background-color: #F5F5DC;
+	padding: 50px 130px;
+	display: inline-block;
+}
+
+.content h1{
+	color: #A4B07E;
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	margin: 20px 100px;
+	padding-bottom: 50px;
+}
+
+.wrapper{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+
+.wrapper img{
+	margin-right: 30px;
+	width: 300px;
+	height: 300px; 
+}
+
+.intro{
+	background-color: #D4C88C;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	padding: 20px 30px;
+}
+
+.intro h2{
+	color: #F5F5DC;
+	font-size: 25px;
+	font-style: oblique;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular',sans-serif;
+	padding: 0px 10px 10px;
+}
+
+.intro p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	padding: 20px 20px 0px;
+}
+
+.benefit{
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+
+.benefit img{
+	margin-left: 30px;
+	width: 400px;
+	height: 300px; 
+	size: 50%;
+}
+
+.menu{
+	text-align: center;
+}
+
+.menu p{
+	color: #A4B07E;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.menubutton{
+	display: flex;
+	justify-content: center;
+}
+
+.menubutton img{
+	height: 200px;
+	width: 200px;
+	opacity: 0.6;
+	margin: 0px 20px;
+}
+
+
+

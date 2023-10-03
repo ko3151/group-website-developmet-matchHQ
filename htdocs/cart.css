@@ -1,0 +1,226 @@
+.main{
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5DC; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.container{
+	width: 70%;
+}
+
+.upper{
+	margin: 15px auto;
+	width: 90%;
+	height: 10%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mycart{
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	color: #2F3841;
+}
+
+a{
+	text-decoration: none;
+}
+
+.home{
+	font-size: 14px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #a12323;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+.row:nth-child(n) {
+	border-top:  1px solid #707C4F;
+	border-bottom:  1px solid #707C4F;
+	padding: 10px;
+}
+
+.row{
+	margin: auto;
+	width: 90%;
+	height: 30%; 
+	display: flex;
+	justify-content: space-between;
+}
+
+.image_box{
+	width: 10%;
+}
+
+.image_box img{
+	width: 120px;
+	height: 120px;
+}
+
+.content{
+	height: 100%;
+	width: 24%;
+}
+
+.title{
+	padding-top: 23px;
+	padding-bottom: 25px;
+	line-height: 10px;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 800;
+	color: #424106;
+}
+
+.price{
+	line-height: 10px;
+	font-size: 18px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #707C4F;
+}
+
+.counter{
+	margin-top: 15px;
+	width: 15%;
+	align-items: center;
+}
+
+.count{
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #424106;
+	width: 100px;
+}
+
+.item_amount{
+	height: 100%;
+}
+
+.amount{
+	padding-top: 15px;
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 800;
+	color: #6D4930;
+}
+
+.remove{
+	padding-top: 15px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #a12323;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+}
+
+hr{
+	margin-left: 5%;
+	margin-right: 5%;
+} 
+
+.checkout{
+	float: right;
+	margin-right: 5%;
+	width: 32%;
+}
+
+.total{
+	width: 100%;
+	display: flex;
+	margin: 10px auto;
+}
+
+.subtotal{
+	font-size: 22px;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	color: #424106;
+	align-self: center;
+    margin-right: 80px;
+}
+
+.total_amount{
+	font-size: 36px;
+	font-family: 'Open Sans';
+	font-weight: 900;
+	color: #6D4930;
+}
+
+label{
+	margin-right: 50px;
+}
+
+input{
+	margin-bottom: 15px;
+}
+
+input[type=date]{
+	margin-left: 68px;
+	width: 130px;
+}
+
+.time{
+	padding: 2px;
+	margin-left: 65px;
+	width: 130px;
+}
+
+.pax{
+	padding: 2px;
+	margin-left: 30px;
+	width: 130px;
+}
+
+#date_time{
+	display: none;
+}
+
+#no_pax{
+	display: none;
+}
+
+#dine:checked ~ #date_time{
+	display: block;
+}
+
+#dine:checked ~ #no_pax{
+	display: block;
+}
+
+#pick:checked ~ #date_time{
+	display: block;
+}
+
+.button{
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	background: #ddd;
+    color: black;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	margin-bottom: 30px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	transition: 0.3s;
+}
+
+.button:hover {
+	opacity: 1;
+	background-color: #707C4F;
+	color: white;
+}
